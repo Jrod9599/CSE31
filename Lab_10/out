@@ -1,0 +1,99 @@
+
+Size(bytes):    4096 Stride(bytes):    4 read+write:    1 ns
+Size(bytes):    4096 Stride(bytes):    8 read+write:    1 ns
+Size(bytes):    4096 Stride(bytes):   16 read+write:    1 ns
+Size(bytes):    4096 Stride(bytes):   32 read+write:    1 ns
+Size(bytes):    4096 Stride(bytes):   64 read+write:    0 ns
+Size(bytes):    4096 Stride(bytes):  128 read+write:    0 ns
+Size(bytes):    4096 Stride(bytes):  256 read+write:    0 ns
+Size(bytes):    4096 Stride(bytes):  512 read+write:    1 ns
+
+Size(bytes):    8192 Stride(bytes):    4 read+write:    1 ns
+Size(bytes):    8192 Stride(bytes):    8 read+write:    1 ns
+Size(bytes):    8192 Stride(bytes):   16 read+write:    0 ns
+Size(bytes):    8192 Stride(bytes):   32 read+write:    1 ns
+Size(bytes):    8192 Stride(bytes):   64 read+write:    1 ns
+Size(bytes):    8192 Stride(bytes):  128 read+write:    1 ns
+Size(bytes):    8192 Stride(bytes):  256 read+write:    0 ns
+Size(bytes):    8192 Stride(bytes):  512 read+write:    0 ns
+
+Size(bytes):   16384 Stride(bytes):    4 read+write:    1 ns
+Size(bytes):   16384 Stride(bytes):    8 read+write:    1 ns
+Size(bytes):   16384 Stride(bytes):   16 read+write:    1 ns
+Size(bytes):   16384 Stride(bytes):   32 read+write:    1 ns
+Size(bytes):   16384 Stride(bytes):   64 read+write:    1 ns
+Size(bytes):   16384 Stride(bytes):  128 read+write:    1 ns
+Size(bytes):   16384 Stride(bytes):  256 read+write:    0 ns
+Size(bytes):   16384 Stride(bytes):  512 read+write:    1 ns
+
+Size(bytes):   32768 Stride(bytes):    4 read+write:    1 ns
+Size(bytes):   32768 Stride(bytes):    8 read+write:    1 ns
+Size(bytes):   32768 Stride(bytes):   16 read+write:    1 ns
+Size(bytes):   32768 Stride(bytes):   32 read+write:    1 ns
+Size(bytes):   32768 Stride(bytes):   64 read+write:    1 ns
+Size(bytes):   32768 Stride(bytes):  128 read+write:    1 ns
+Size(bytes):   32768 Stride(bytes):  256 read+write:    1 ns
+Size(bytes):   32768 Stride(bytes):  512 read+write:    1 ns
+
+Size(bytes):   65536 Stride(bytes):    4 read+write:    1 ns
+Size(bytes):   65536 Stride(bytes):    8 read+write:    1 ns
+Size(bytes):   65536 Stride(bytes):   16 read+write:    1 ns
+Size(bytes):   65536 Stride(bytes):   32 read+write:    1 ns
+Size(bytes):   65536 Stride(bytes):   64 read+write:    2 ns
+Size(bytes):   65536 Stride(bytes):  128 read+write:    2 ns
+Size(bytes):   65536 Stride(bytes):  256 read+write:    2 ns
+Size(bytes):   65536 Stride(bytes):  512 read+write:    2 ns
+
+Size(bytes):  131072 Stride(bytes):    4 read+write:    1 ns
+Size(bytes):  131072 Stride(bytes):    8 read+write:    1 ns
+Size(bytes):  131072 Stride(bytes):   16 read+write:    1 ns
+Size(bytes):  131072 Stride(bytes):   32 read+write:    1 ns
+Size(bytes):  131072 Stride(bytes):   64 read+write:    2 ns
+Size(bytes):  131072 Stride(bytes):  128 read+write:    2 ns
+Size(bytes):  131072 Stride(bytes):  256 read+write:    2 ns
+Size(bytes):  131072 Stride(bytes):  512 read+write:    2 ns
+
+Size(bytes):  262144 Stride(bytes):    4 read+write:    1 ns
+Size(bytes):  262144 Stride(bytes):    8 read+write:    1 ns
+Size(bytes):  262144 Stride(bytes):   16 read+write:    1 ns
+Size(bytes):  262144 Stride(bytes):   32 read+write:    1 ns
+Size(bytes):  262144 Stride(bytes):   64 read+write:    3 ns
+Size(bytes):  262144 Stride(bytes):  128 read+write:    3 ns
+Size(bytes):  262144 Stride(bytes):  256 read+write:    3 ns
+Size(bytes):  262144 Stride(bytes):  512 read+write:    3 ns
+
+Size(bytes):  524288 Stride(bytes):    4 read+write:    1 ns
+Size(bytes):  524288 Stride(bytes):    8 read+write:    1 ns
+Size(bytes):  524288 Stride(bytes):   16 read+write:    1 ns
+Size(bytes):  524288 Stride(bytes):   32 read+write:    1 ns
+Size(bytes):  524288 Stride(bytes):   64 read+write:    3 ns
+Size(bytes):  524288 Stride(bytes):  128 read+write:    4 ns
+Size(bytes):  524288 Stride(bytes):  256 read+write:    4 ns
+Size(bytes):  524288 Stride(bytes):  512 read+write:    3 ns
+
+Size(bytes): 1048576 Stride(bytes):    4 read+write:    1 ns
+Size(bytes): 1048576 Stride(bytes):    8 read+write:    1 ns
+Size(bytes): 1048576 Stride(bytes):   16 read+write:    1 ns
+Size(bytes): 1048576 Stride(bytes):   32 read+write:    1 ns
+Size(bytes): 1048576 Stride(bytes):   64 read+write:    3 ns
+Size(bytes): 1048576 Stride(bytes):  128 read+write:    4 ns
+Size(bytes): 1048576 Stride(bytes):  256 read+write:    4 ns
+Size(bytes): 1048576 Stride(bytes):  512 read+write:    3 ns
+
+Size(bytes): 2097152 Stride(bytes):    4 read+write:    1 ns
+Size(bytes): 2097152 Stride(bytes):    8 read+write:    1 ns
+Size(bytes): 2097152 Stride(bytes):   16 read+write:    1 ns
+Size(bytes): 2097152 Stride(bytes):   32 read+write:    1 ns
+Size(bytes): 2097152 Stride(bytes):   64 read+write:    3 ns
+Size(bytes): 2097152 Stride(bytes):  128 read+write:    4 ns
+Size(bytes): 2097152 Stride(bytes):  256 read+write:    4 ns
+Size(bytes): 2097152 Stride(bytes):  512 read+write:    3 ns
+
+Size(bytes): 4194304 Stride(bytes):    4 read+write:    1 ns
+Size(bytes): 4194304 Stride(bytes):    8 read+write:    1 ns
+Size(bytes): 4194304 Stride(bytes):   16 read+write:    1 ns
+Size(bytes): 4194304 Stride(bytes):   32 read+write:    1 ns
+Size(bytes): 4194304 Stride(bytes):   64 read+write:    3 ns
+Size(bytes): 4194304 Stride(bytes):  128 read+write:    4 ns
+Size(bytes): 4194304 Stride(bytes):  256 read+write:    4 ns
+Size(bytes): 4194304 Stride(bytes):  512 read+write:    3 ns
