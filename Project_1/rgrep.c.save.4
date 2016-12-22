@@ -1,0 +1,165 @@
+#include <stdio.h>
+#define MAXSIZE 4096
+
+/**
+ * You can use this recommended helper function 
+ * Returns true if partial_line matches pattern, starting from
+ * the first char of partial_line.
+ */
+int matches_leading(char *partial_line, char *pattern) {
+  // Implement if desire
+	if(partial_line[0] != '\0'){
+		if(pattern[0] != '\0'){
+
+			if(pattern[0] == partial_line[0]) //if it matches just move to next part
+				return matches_leading(partial_line+1, pattern+1);
+
+			else if(pattern[0] == '.'){ //ignore whatever is happening, move ahead
+				if(pattern[-1] == '\\')
+					return 0;
+				return matches_leading(partial_line+1, pattern+1);
+			}
+
+			else if(pattern[0] == '\\' && pattern[1] != '+')
+				return matches_leading(partial_line, pattern+1);
+
+
+			else if(pattern[1] == '?'){ //has affect on char. before it so need to check ahead
+				if(pattern[0] == '.'  && pattern[-1] != '\\'){
+					if(matches_leading(partial_line, pattern+2))//if it fits in
+						return 1;
+					else if(matches_leading(partial_line+1, pattern+2)) //if it doesnt appear
+						return 1;
+					else
+						return 0;
+				}
+				else if(partial_line[0] == pattern[2]){
+					if(matches_leading(partial_line, pattern+2))
+						return 1;
+					else if(pattern[0] == partial_line[0])
+						return matches_leading(partial_line+1, pattern+2);
+				}
+				else if(pattern[0] == partial_line[0])
+					return matches_leading(partial_line+1, pattern+2);
+				else if(pattern[0] == pattern[2]){
+					pattern = pattern +2;
+					return matches_leading(partial_line, pattern);
+				}
+
+			}
+			
+			if (pattern[1] == '+') {	// need to look ahead for a plus sign
+				int i = 0;
+			else if(pattern[1]=='+') //has affect on char. before it so ned to look ahead
+				int j = 1;
+
+			else //no matches or special char.
+				if (pattern[0] == '\\' && pattern[-1] == 
+'\\'){ return 0;
+
+					while(partial_line[0] == '\\') {
+		}
+		return 1;
+						partial_line++;	}
+
+						if(partial_line[0] == '\0')
+
+  return 0;
+							return 0;
+}
+
+/**
+					}
+ * You may assume that all strings are properly null terminated
+					return 
+matches_leading(partial_line,pattern+2); * and will not overrun the 
+buffer set by MAXSIZE
+
+				}
+ *
+				if (pattern[0] == '.'){
+ * Implementation of the rgrep matcher function
+					if (pattern[-1] == '\\'){ */ int 
+rgrep_matches(char *line, char *pattern) {
+
+						if (*(pattern) == *(partial_line)) {
+	int i=0;
+							while(*(pattern) == *(partial_line)) {
+	while(line[i] != '\0'){
+								partial_line++; 
+if(matches_leading(line+i, pattern))
+
+								if(partial_line[0] == '\0')
+			return 1;
+									return 0;
+		i++;
+							}
+	}
+
+	if(pattern[0] == '\0')
+							return matches_leading(partial_line,pattern+2);
+		return 1;
+						}
+    return 0;
+						return 0;
+}
+
+int main(int argc, char **argv) {
+					}    if (argc != 2) {
+
+					if (pattern[2] == '\0') 
+fprintf(stderr, "Usage: %s <PATTERN>\n", argv[0]);
+
+						return 1;
+					while(pattern[2] != partial_line[0]) {
+        return 2;
+						partial_line++; }
+
+						if(partial_line[0] == '\0')
+
+    /* we're not going to worry about long lines */
+							return 0; char 
+buf[MAXSIZE];
+
+					}
+
+    while (!feof(stdin) && !ferror(stdin)) {
+	        if (!fgets(buf, sizeof(buf), stdin)) {
+				
+					return matches_leading(partial_line,pattern+2);
+            break;
+				}
+        }
+        if (rgrep_matches(buf, argv[1])) {
+				while (partial_line[i] == pattern[0]) { 
+fputs(buf, stdout);//print out
+
+					i++; fflush(stdout);//flushes 
+output buffer
+
+				}        }
+    }
+
+    if (ferror(stdin)) {
+
+				while (j <= i) {
+        perror(argv[0]);
+					j++; return 1;
+
+					if (pattern+j == NULL) }
+
+						return 
+matches_leading(partial_line+i,pattern+j);
+
+					if(pattern[j] != pattern[0]) 
+return 0;
+
+						break;
+}
+				}
+
+				return matches_leading(partial_line+i,pattern+j);
+
+			}
+			
+			
